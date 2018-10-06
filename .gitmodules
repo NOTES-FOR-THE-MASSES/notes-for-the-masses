@@ -1,0 +1,3 @@
+[submodule "api-gateway"]
+	path = api-gateway
+	url = git@github.com:NOTES-FOR-THE-MASSES/api-gateway.git
