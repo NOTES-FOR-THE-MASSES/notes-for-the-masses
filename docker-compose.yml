@@ -3,9 +3,10 @@ services:
   api-gateway:
     build: ./api-gateway
     ports: 
-      - "5000:5000"
+      - "3000:3000"
     volumes:
-      - ./api-gateway:/code
+      - ./api-gateway:/api-gateway
+      - /api-gateway/node_modules
   # rabbitmq-server:
   #   build: ./rabbitmq-server
             
